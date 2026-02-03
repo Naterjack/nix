@@ -11,7 +11,8 @@
     enable = true;
     openFirewall = true;
     extraArgs = [
-      "--primary-interface wlan0"
+      "--primary-interface"
+      "wlan0"
     ];
   };
 }
